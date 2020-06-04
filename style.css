@@ -1,8 +1,17 @@
-html {
+body {
   margin: 0;
   padding: 0;
 }
 
 .top-bar {
+  background-color: rgb(46, 19, 197);
   display: flex;
+}
+
+.facebook-logo {
+  border: 2px solid red;
+}
+
+.facebook-logo img {
+  height: 65px;
 }
