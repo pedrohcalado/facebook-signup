@@ -16,3 +16,10 @@ body {
 .facebook-logo img {
   height: 65px;
 }
+
+.login {
+  align-items: center;
+  color: white;
+  display: flex;
+  width: 50%;
+}
