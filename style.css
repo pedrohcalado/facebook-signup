@@ -11,10 +11,10 @@ body {
 }
 
 .facebook-logo {
-  background: transparent url('facebook-logo1png.png') no-repeat center;
-  border: 2px solid red;
-  justify-content: center;
-  width: 150px;
+  background: transparent url('kindpng_440522.png') no-repeat;
+  background-position: center;
+  background-size: 150px;
+  width: 50%;
 }
 
 .facebook-logo img {
@@ -32,4 +32,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
+}
+
+.container {
+  display: flex;
 }
