@@ -11,9 +11,9 @@ body {
 }
 
 .facebook-logo {
+  background: transparent url('facebook-logo1png.png') no-repeat center;
   border: 2px solid red;
   justify-content: center;
-  background:transparent url(facebook-logo1png.png) no-repeat center;
   width: 150px;
 }
 
