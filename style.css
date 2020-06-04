@@ -6,6 +6,7 @@ body {
 .top-bar {
   background-color: rgb(46, 19, 197);
   display: flex;
+  justify-content: space-between;
 }
 
 .facebook-logo {
