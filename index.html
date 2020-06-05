@@ -11,7 +11,8 @@
   <script src="./node_modules/just-validate/dist/js/just-validate.min.js"></script>
 </head>
 <body>
-  <header class="top-bar">
+  <header >
+    <div class="top-bar">
     <div class="facebook-logo">
      <!-- <img src="facebook-logo1png.png" alt="logo do facebook">-->
     </div>
@@ -27,6 +28,7 @@
       <div class="button">
         <button id="button-login" type="button">Entrar</button>
       </div>
+    </div>
     </div>
   </header>
   <main class="container">
@@ -61,7 +63,7 @@
       </div>
       <div>
         <p>Gênero</p>
-        <input id="female" type="radio" name="gender">
+        <input id="female" type="radio" name="gender" checked>
         <label for="female">Feminino</label>
         <input id="male" type="radio" name="gender">
         <label for="male">Masculino</label>
