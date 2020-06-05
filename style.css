@@ -4,17 +4,15 @@ body {
 }
 
 .top-bar {
-  width: 980px;
   display: flex;
   justify-content: space-between;
   margin: auto;
-
+  width: 980px;
 }
 
-header{
+header {
   background-color: rgb(62, 92, 154);
   height: 65px;
-
 }
 
 .facebook-logo {
