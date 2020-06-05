@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+  <script src="./node_modules/just-validate/dist/js/just-validate.min.js"></script>
 </head>
 <body>
   <header class="top-bar">
@@ -39,9 +40,10 @@
         <p>Abra uma conta</p>
         <p>É rápido e fácil.</p>
       </div>
+      <form action="" method="GET" class="js-form">
       <div class="espaco-cadastro">
         <div class="firstName">
-          <input class="cadastro first-name-input" type="text" placeholder="Nome">
+          <input data-validate-field="name" name="name" class="cadastro first-name-input" type="text" placeholder="Nome">
         </div>
         <div class="fullName">
           <input class="cadastro " type="text" placeholder="Sobrenome">
@@ -66,6 +68,8 @@
         <input id="personalizado" type="radio" name="gender">
         <label for="personalizado">Personalizado</label>
       </div>
+      <button id="facebook-register" type="submit">Cadastre-se</button>
+    </form>
     </section>
   </main>
   <script src="libs/scriptPikaday.js"></script>
