@@ -37,3 +37,7 @@ body {
 .container {
   display: flex;
 }
+
+.fullName {
+  display: flex;
+}
