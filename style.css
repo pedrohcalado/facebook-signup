@@ -38,19 +38,23 @@ body {
   display: flex;
 }
 
-.fullName {
+.espaco-cadastro {
   display: flex;
+  margin-bottom: 10px;
 }
 
-.first-name , .last-name {
+.cadastro {
   border: 1px solid #ccd0d5;
   border-radius: 5px;
   color: #1c1e21;
   font-size: 20px;
-  margin-right: 10px;
   padding: 8px 10px;
 }
 
 .input-celular-email , .input-password {
   width: 100%;
+}
+
+.first-name-input {
+  margin-right: 10px;
 }

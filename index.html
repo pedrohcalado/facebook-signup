@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
 </head>
 <body>
   <header class="top-bar">
@@ -36,23 +39,26 @@
         <p>Abra uma conta</p>
         <p>É rápido e fácil.</p>
       </div>
-      <div class="fullName">
+      <div class="espaco-cadastro">
         <div class="firstName">
-          <input class="first-name" type="text" placeholder="Nome">
+          <input class="cadastro first-name-input" type="text" placeholder="Nome">
         </div>
-        <div class="lastName">
-          <input class="last-name" type="text" placeholder="Sobrenome">
+        <div class="fullName">
+          <input class="cadastro " type="text" placeholder="Sobrenome">
         </div>
       </div>
-      <div class="celular-email">
-        <input class="input-celular-email" type="text" placeholder="Celular ou email">
+      <div class="espaco-cadastro">
+        <input class="cadastro input-celular-email" type="text" placeholder="Celular ou email">
       </div>
-      <div class="body-password">
-        <input class="input-password" type="password" placeholder="Nova senha">
+      <div class="espaco-cadastro">
+        <input class="cadastro input-password" type="password" placeholder="Nova senha">
       </div>
+      <div></div>
       <p>Data de nascimento</p>
+      <input id="datepicker" type="text" placeholder="dd/mm/aaaa">
     </section>
   </main>
+  <script src="libs/scriptPikaday.js"></script>
   <script src="script.js">
   </script>
 </body>
