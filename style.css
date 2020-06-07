@@ -1,47 +1,172 @@
 body {
+  background-color: #edf0f5;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .top-bar {
   display: flex;
+  height: 65px;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
+  padding-top: 13px;
   width: 980px;
 }
 
 header {
   background-color: rgb(62, 92, 154);
-  height: 65px;
+  height: 82px;
 }
 
 .facebook-logo {
-  background: transparent url('images/kindpng_440522.png') no-repeat;
-  background-position: center;
-  background-size: 150px;
+  background: transparent url('/images/facebook-logo.png') no-repeat;
+  background-position: left;
+  background-size: 180px;
   width: 50%;
-}
-
-.facebook-logo img {
-  height: 55px;
 }
 
 .login {
   align-items: center;
   color: white;
   display: flex;
-  width: 50%;
+  justify-content: flex-start;
+  width: 399px;
 }
 
-.email-phone , .password , .button {
+.login label {
+  font-size: 12px;
+}
+
+.email-phone {
+  align-self: flex-start;
   display: flex;
   flex-direction: column;
-  margin-right: 10px;
+  margin-bottom: 18px;
+}
+
+.email-phone input {
+  border: 1px solid #ccd0d5;
+  border-radius: 0;
+  font-size: 12px;
+  margin-left: 14px;
+  margin-right: 14px;
+  height: 18px;
+  outline: none;
+  width: 142px;
+}
+
+.email-phone label {
+  padding: 0 0 6px 14px;
+}
+
+.password {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.password input {
+  border: 1px solid #ccd0d5;
+  border-radius: 0;
+  font-size: 12px;
+  height: 18px;
+  outline: none;
+  width: 142px;
+}
+
+.password label {
+  padding-bottom: 6px;
+}
+
+.password p {
+  color: #9cb4d8;
+  font-size: 12px;
+  margin: 6px 0;
+}
+
+div.button {
+  display: flex;
+  margin-left: 0;
+  margin-bottom: 3px;
+}
+
+div.button button {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 14px;
+  padding: 4px 6px;
+}
+
+div.button button:hover {
+  background-color: rgb(62, 92, 154);
 }
 
 .container {
   display: flex;
+  height: 583.84px;
+  margin: auto;
+  padding: 20px 0;
+  width: 980px;
 }
+
+.left-side {
+  margin: 0px 16px 0px 0px;
+  width: 565px;
+}
+
+.left-side p.main-text {
+  color: #333;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 0;
+  padding: 42px 0px 24px 0px;
+  text-rendering: optimizelegibility;
+}
+
+.left-side div.photos-updates ,
+.left-side div.share ,
+.left-side div.find {
+  color: #666;
+  display: flex;
+  margin-top: 14px;
+  padding-bottom: 10px;
+}
+
+.left-side strong {
+  color: #333;
+}
+
+.left-side img {
+  margin-right: 16px;
+}
+
+.right-side {
+  width: 399px;
+}
+
+.right-side .open-account {
+  color: #333;
+}
+
+.right-side .sign-up {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.right-side .quick-easy {
+  font-size: 19px;
+  margin: 0 0 20px 0;
+}
+
+.right-side 
 
 .espaco-cadastro {
   display: flex;
@@ -49,11 +174,13 @@ header {
 }
 
 .cadastro {
-  border: 1px solid #ccd0d5;
+  border: 1px solid #bdc7d8;
   border-radius: 5px;
   color: #1c1e21;
-  font-size: 20px;
+  font-size: 18px;
+  outline: none;
   padding: 8px 10px;
+  width: 172px;
 }
 
 .input-celular-email , .input-password {
@@ -62,4 +189,36 @@ header {
 
 .first-name-input {
   margin-right: 10px;
+}
+
+.right-side .birthday p {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 5px 0;
+}
+
+.right-side .birthday input {
+  border: 1px solid #bdc7d8;
+  font-size: 13px;
+  height: 15px;
+  padding: 5px;
+}
+
+.right-side .birthday div {
+  align-items: center;
+  display: flex;
+}
+
+.right-side .birthday img {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.right-side .gender p {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
 }
