@@ -216,9 +216,102 @@ div.button button:hover {
   width: 20px;
 }
 
+.right-side .birthday img:hover {
+  cursor: pointer;
+}
+
 .right-side .gender p {
   color: #90949c;
   font-size: 16px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 10px 0;
+}
+
+.right-side .gender input {
+  padding: 5px 0 5px 4px;
+}
+
+.right-side .gender label {
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.right-side .gender img {
+  height: 20px;
+  width: 20px;
+}
+
+.right-side .gender img:hover {
+  cursor: pointer;
+}
+
+.right-side .terms {
+  color: #777;
+  line-height: 1.34;
+  font-size: 11px;
+  margin: 11px 0;
+  width: 316px;
+}
+
+.right-side .terms a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.right-side .terms a:hover {
+  text-decoration: underline;
+}
+
+.right-side .terms a:visited {
+  color: #385898;
+}
+
+.right-side button {
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  margin: 10px 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+}
+
+.right-side button:hover {
+  background: linear-gradient(#67ae55, #669155);  
+}
+
+.right-side .celebrity-page {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.right-side .celebrity-page a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.right-side .celebrity-page a:hover {
+  text-decoration: underline;
+}
+
+.right-side .celebrity-page a:visited {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}
+
+footer div {
+  background: rgb(255, 255, 255);
+  height: 136px;
 }
