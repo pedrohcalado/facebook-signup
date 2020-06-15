@@ -46,13 +46,12 @@ header {
 }
 
 .email-phone input {
-  border: 1px solid #ccd0d5;
+  border: 1px solid rgb(204, 208, 213);
   border-radius: 0;
   font-size: 12px;
+  height: 18px;
   margin-left: 14px;
   margin-right: 14px;
-  height: 18px;
-  outline: none;
   width: 142px;
 }
 
@@ -67,7 +66,7 @@ header {
 }
 
 .password input {
-  border: 1px solid #ccd0d5;
+  border: 1px solid rgb(204, 208, 213);
   border-radius: 0;
   font-size: 12px;
   height: 18px;
@@ -75,25 +74,29 @@ header {
   width: 142px;
 }
 
+.email-phone input:focus {
+  outline: none;
+}
+
 .password label {
   padding-bottom: 6px;
 }
 
 .password p {
-  color: #9cb4d8;
+  color: rgb(156, 180, 216);
   font-size: 12px;
   margin: 6px 0;
 }
 
-div.button {
+.button {
   display: flex;
-  margin-left: 0;
   margin-bottom: 3px;
+  margin-left: 0;
 }
 
 div.button button {
-  background-color: #4267b2;
-  border: 1px solid #29487d;
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
   border-radius: 2px;
   color: white;
   font-size: 12px;
@@ -115,32 +118,32 @@ div.button button:hover {
 }
 
 .left-side {
-  margin: 0px 16px 0px 0px;
+  margin: 0 16px 0 0;
   width: 565px;
 }
 
 .left-side p.main-text {
-  color: #333;
+  color: rgb(51, 51, 51);
   font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
   font-size: 28px;
   font-weight: bold;
   line-height: 36px;
   margin: 0;
-  padding: 42px 0px 24px 0px;
+  padding: 42px 0 24px 0;
   text-rendering: optimizelegibility;
 }
 
 .left-side div.photos-updates ,
 .left-side div.share ,
 .left-side div.find {
-  color: #666;
+  color: rgb(102, 102, 102);
   display: flex;
   margin-top: 14px;
   padding-bottom: 10px;
 }
 
 .left-side strong {
-  color: #333;
+  color: rgb(51, 51, 51);
 }
 
 .left-side img {
@@ -152,7 +155,7 @@ div.button button:hover {
 }
 
 .right-side .open-account {
-  color: #333;
+  color: rgb(51, 51, 51);
 }
 
 .right-side .sign-up {
@@ -166,21 +169,22 @@ div.button button:hover {
   margin: 0 0 20px 0;
 }
 
-.right-side 
-
 .espaco-cadastro {
   display: flex;
   margin-bottom: 10px;
 }
 
 .cadastro {
-  border: 1px solid #bdc7d8;
+  border: 1px solid rgb(189, 199, 216);
   border-radius: 5px;
-  color: #1c1e21;
+  color: rgb(28, 30, 33);
   font-size: 18px;
-  outline: none;
   padding: 8px 10px;
   width: 172px;
+}
+
+.cadastro:focus {
+  outline: none;
 }
 
 .input-celular-email , .input-password {
@@ -192,14 +196,14 @@ div.button button:hover {
 }
 
 .right-side .birthday p {
-  color: #90949c;
+  color: rgb(144, 148, 156);
   font-size: 16px;
   font-weight: bold;
   margin: 20px 0 5px 0;
 }
 
 .right-side .birthday input {
-  border: 1px solid #bdc7d8;
+  border: 1px solid rgb(189, 199, 216);
   font-size: 13px;
   height: 15px;
   padding: 5px;
@@ -221,7 +225,7 @@ div.button button:hover {
 }
 
 .right-side .gender p {
-  color: #90949c;
+  color: rgb(144, 148, 156);
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0 10px 0;
@@ -246,7 +250,7 @@ div.button button:hover {
 }
 
 .right-side .terms {
-  color: #777;
+  color: rgb(119, 119, 119);
   line-height: 1.34;
   font-size: 11px;
   margin: 11px 0;
@@ -254,7 +258,7 @@ div.button button:hover {
 }
 
 .right-side .terms a {
-  color: #385898;
+  color: rgb(56, 88, 152);
   text-decoration: none;
 }
 
@@ -263,34 +267,34 @@ div.button button:hover {
 }
 
 .right-side .terms a:visited {
-  color: #385898;
+  color: rgb(56, 88, 152);
 }
 
 .right-side button {
+  background: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  background-color: #69a74e;
   border: 1px solid;
+  border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21);
   border-radius: 5px;
-  color: #fff;
+  box-shadow: inset 0 1px 1px rgb(164, 227, 136);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-size: 19px;
   font-weight: bold;
-  background: linear-gradient(#67ae55, #578843);
-  background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
-  border-color: #3b6e22 #3b6e22 #2c5115;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
   margin: 10px 0;
   min-width: 194px;
   padding: 7px 20px;
   text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
 }
 
 .right-side button:hover {
-  background: linear-gradient(#67ae55, #669155);  
+  background: linear-gradient(rgb(103, 174, 85), rgb(102, 145, 85));
 }
 
 .right-side .celebrity-page {
-  border-top: 1px solid #dddfe2;
-  color: #666;
+  border-top: 1px solid rgb(221, 223, 226);
+  color: rgb(102, 102, 102);
   font-size: 13px;
   font-weight: bold;
   margin-top: 10px;
@@ -298,7 +302,7 @@ div.button button:hover {
 }
 
 .right-side .celebrity-page a {
-  color: #385898;
+  color: rgb(56, 88, 152);
   text-decoration: none;
 }
 
