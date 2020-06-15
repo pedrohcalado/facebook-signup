@@ -113,7 +113,7 @@ div.button button:hover {
   display: flex;
   height: 583.84px;
   margin: auto;
-  padding: 20px 0;
+  padding: 20px 0 15px 0;
   width: 980px;
 }
 
@@ -313,9 +313,4 @@ div.button button:hover {
 .right-side .celebrity-page a:visited {
   color: rgb(56, 88, 152);
   text-decoration: none;
-}
-
-footer div {
-  background: rgb(255, 255, 255);
-  height: 136px;
 }
